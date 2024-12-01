@@ -21,5 +21,5 @@ Este projeto possui duas partes principais: o front-end (aplicativo Expo) e o ba
    ```bash
    npm i
 3. Execute o seguinte comando para rodar a API:
-4. ```bash
+   ```bash
    node src/index.js
