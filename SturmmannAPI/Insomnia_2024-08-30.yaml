@@ -1,0 +1,167 @@
+_type: export
+__export_format: 4
+__export_date: 2024-08-30T22:53:29.591Z
+__export_source: insomnia.desktop.app:v9.3.3
+resources:
+  - _id: req_87f3b0a12c86454bbb4d3cd87c0e1e57
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724959035436
+    created: 1724957530467
+    url: http://localhost:3000/66cf82561ad43b336ad88ce0
+    name: Modificate
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        	"_id": "66cf82561ad43b336ad88ce0",
+        	"name": "Resiliência",
+        	"definition1": "A capacidade de enfrentar e superar desafios e adversidades de maneira eficaz e positiva. Envolve adaptar-se às mudanças, manter o equilíbrio emocional e aprender com as experiências difíceis. A resiliência permite que indivíduos ou organizações se recuperem rapidamente de situações estressantes e se fortaleçam, emergindo mais fortes após enfrentar períodos de dificuldade.",
+        	"definition2": "Em física, capacidade de um material de voltar ao seu estado original após sofrer deformação.",
+        	"synonyms": "Adaptabilidade, flexibilidade, robustez, resistência, firmeza, tenacidade, capacidade de recuperação.",
+        	"phrase1": "A resiliência do time diante das dificuldades foi fundamental para que eles conseguissem vencer o campeonato, mesmo após uma série de derrotas inesperadas.",
+        	"phrase2": "Sua resiliência em enfrentar e superar as adversidades da vida a ajudou a se recuperar rapidamente de um acidente sério e a retomar suas atividades com ainda mais determinação.",
+        	"__v": 0
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/9.3.3
+    authentication: {}
+    metaSortKey: -1724957530467
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_f5111f198cfc4bda8d272fbf1344322e
+    parentId: null
+    modified: 1724782614995
+    created: 1724782614995
+    name: Sturmmann
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_ed45194eb4d845b3a9b210a3b3331339
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724957589697
+    created: 1724955676344
+    url: http://localhost:3000/66d0bbfbf92963db8958e185
+    name: Remove
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers:
+      - name: User-Agent
+        value: insomnia/9.3.3
+    authentication: {}
+    metaSortKey: -1724955676344
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_fd38858bcc2a4af8b71748f1d0675f2c
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724960669025
+    created: 1724870166083
+    url: http://localhost:3000
+    name: Create
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        		"name": "Resolução",
+        		"definition1": "Decisão firme e determinada de tomar uma ação específica ou de alcançar um objetivo, geralmente após uma análise cuidadosa ou consideração. Envolve um compromisso resoluto de seguir adiante com um plano ou propósito, muitas vezes associado a mudanças ou melhorias na vida pessoal ou profissional.",
+        		"definition2": "Capacidade de um instrumento ou sistema de distinguir entre dois pontos próximos. Exemplo: A resolução de uma câmera é medida pela sua capacidade de capturar detalhes finos.",
+        		"synonyms": "Decisão, determinação deliberação, compromisso, propósito, solução, conclusão, diligência",
+        		"phrase1": "A resolução do problema exigiu uma reunião com todos os envolvidos.",
+        		"phrase2": "A resolução de enfrentar seus medos e superar desafios foi o que a motivou a iniciar um novo projeto.",
+        		"__v": 0
+        	}
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/9.3.3
+    authentication: {}
+    metaSortKey: -1724870166083
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_a7a40b7d876f4c5d842d7c22accef90f
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724960633121
+    created: 1724782635637
+    url: http://localhost:3000
+    name: List
+    description: ""
+    method: GET
+    body:
+      mimeType: application/json
+      text: >-
+        {
+        		"name": "Resolução",
+        		"definition1": "Decisão firme e determinada de tomar uma ação específica ou de alcançar um objetivo, geralmente após uma análise cuidadosa ou consideração. Envolve um compromisso resoluto de seguir adiante com um plano ou propósito, muitas vezes associado a mudanças ou melhorias na vida pessoal ou profissional.",
+        		"definition2": "Capacidade de um instrumento ou sistema de distinguir entre dois pontos próximos. Exemplo: A resolução de uma câmera é medida pela sua capacidade de capturar detalhes finos.",
+        		"synonyms": "Decisão, determinação deliberação, compromisso, propósito, solução, conclusão, diligência",
+        		"phrase1": "A resolução do problema exigiu uma reunião com todos os envolvidos.",
+        		"phrase2": "A resolução de enfrentar seus medos e superar desafios foi o que a motivou a iniciar um novo projeto.",
+        		"__v": 0
+        	}
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/9.3.3
+    authentication: {}
+    metaSortKey: -1724782635637
+    isPrivate: false
+    pathParameters: []
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_eb3e79e711d71f2af631a8ca46b9291c1982e0a6
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724782614998
+    created: 1724782614998
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1724782614998
+    _type: environment
+  - _id: jar_eb3e79e711d71f2af631a8ca46b9291c1982e0a6
+    parentId: wrk_f5111f198cfc4bda8d272fbf1344322e
+    modified: 1724782615001
+    created: 1724782615001
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
