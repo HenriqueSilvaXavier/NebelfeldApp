@@ -10,7 +10,9 @@ Este projeto possui duas partes principais: o front-end (aplicativo Expo) e o ba
 2. Instale as dependências com o seguinte comando:
    ```bash
    npm i
-3. Execute o npx expo start
+3. Execute o seguinte comando para rodar o front-end:
+   ```bash
+   npx expo start
 
 ## API
 
@@ -18,4 +20,6 @@ Este projeto possui duas partes principais: o front-end (aplicativo Expo) e o ba
 2. Instale as dependências com o seguinte comando:
    ```bash
    npm i
-3. Execute o node src/index.js para rodar a API
+3. Execute o seguinte comando para rodar a API:
+4. ```bash
+   node src/index.js
